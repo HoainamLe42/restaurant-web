@@ -1,26 +1,104 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+    --foreground: #ffff;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+
+    --color-primary: #fb8f2c;
+    --color-white80: #ffffffcc;
+    --color-dark80: #111114;
+
+    --text-h2: 64px;
+    --text-h2--line-height: 74px;
+    --leading-h2: 74px;
+
+    --font-libre-bodoni: 'Libre Bodoni', serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--foreground);
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Libre Bodoni', serif;
+}
+
+/* slider.css */
+.swiper-pagination-bullet {
+    background: #ffff !important;
+    /* border: 1px gray solid !important; */
+}
+
+.swiper-pagination-bullet-active {
+    width: 18px !important;
+    height: 8px !important;
+    border-radius: 99px !important;
+    background: white !important;
+}
+
+.swiper-slide img {
+    border: 1px white solid !important;
+}
+
+.loader {
+    width: 100px;
+    height: 40px;
+    --g: radial-gradient(
+            farthest-side,
+            #0000 calc(95% - 3px),
+            #4545e0 calc(100% - 3px) 98%,
+            #0000 101%
+        )
+        no-repeat;
+    background: var(--g), var(--g), var(--g);
+    background-size: 30px 30px;
+    animation: l9 1s infinite alternate;
+}
+@keyframes l9 {
+    0% {
+        background-position: 0 50%, 50% 50%, 100% 50%;
+    }
+    20% {
+        background-position: 0 0, 50% 50%, 100% 50%;
+    }
+    40% {
+        background-position: 0 100%, 50% 0, 100% 50%;
+    }
+    60% {
+        background-position: 0 50%, 50% 100%, 100% 0;
+    }
+    80% {
+        background-position: 0 50%, 50% 50%, 100% 100%;
+    }
+    100% {
+        background-position: 0 50%, 50% 50%, 100% 50%;
+    }
+}
+
+.scrollbar-hide {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
 }

@@ -1,0 +1,425 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "The Burger Cafe",
+      "slug": "the-burger-cafe",
+      "price": 75000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Burger",
+        "Breakfast"
+      ],
+      "image": "/images/products/burger.webp",
+      "rating": 4.6,
+      "isPopular": true
+    },
+    {
+      "id": "2",
+      "name": "The Pizza Hut",
+      "slug": "the-pizza-hut",
+      "price": 80000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Pizza",
+        "Breakfast"
+      ],
+      "image": "/images/products/pizza.webp",
+      "rating": 4.5,
+      "isPopular": true
+    },
+    {
+      "id": "3",
+      "name": "Caprese Sandwich Hub",
+      "slug": "caprese-sandwich-hub",
+      "price": 55000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Sandwiches",
+        "Breakfast"
+      ],
+      "image": "/images/products/sandwick.webp",
+      "rating": 4.1
+    },
+    {
+      "id": "4",
+      "name": "Chicken",
+      "slug": "chicken",
+      "price": 45000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Chicken",
+        "Breakfast"
+      ],
+      "image": "/images/products/wings.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "5",
+      "name": "The Coffee Express",
+      "slug": "the-coffee-express",
+      "price": 49000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Coffee",
+        "Drinks"
+      ],
+      "image": "/images/products/coffee.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "6",
+      "name": "The Biryani House",
+      "slug": "the-biryani-house",
+      "price": 75000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Lunch",
+        "Dinner"
+      ],
+      "image": "/images/products/biryani.webp",
+      "rating": 4,
+      "isPopular": true
+    },
+    {
+      "id": "7",
+      "name": "Fast Food Hub",
+      "slug": "fast-Food-hub",
+      "price": 75000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Fast Food",
+        "Breakfast"
+      ],
+      "image": "/images/products/fast_food_hub.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "8",
+      "name": "Fast Food Cafe",
+      "slug": "fast-food-cafe",
+      "price": 55000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Fast Food",
+        "Breakfast"
+      ],
+      "image": "/images/products/fast_food_cafe.webp",
+      "rating": 4.8,
+      "isPopular": false
+    },
+    {
+      "id": "9",
+      "name": "Fried Chicken Hub",
+      "slug": "fried-chicken-hub",
+      "price": 95000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Chicken",
+        "Breakfast"
+      ],
+      "image": "/images/products/fried_chicken.webp",
+      "rating": 4.6,
+      "isPopular": true
+    },
+    {
+      "id": "10",
+      "name": "The Steak Cafe",
+      "slug": "the-steak-cafe",
+      "type": "Fast Food",
+      "price": 65000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Drinks",
+        "Breakfast"
+      ],
+      "image": "/images/products/steak_cafe.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "11",
+      "name": "The Pizza King",
+      "slug": "the-pizza-king",
+      "type": "Pizza",
+      "price": 99000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Breakfast"
+      ],
+      "image": "/images/products/pizza_king.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "12",
+      "name": "The French Fries",
+      "slug": "the-french-fries",
+      "price": 79000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Fast Food",
+        "Breakfast"
+      ],
+      "image": "/images/products/fries.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "13",
+      "name": "The Noodles Cafe",
+      "slug": "the-noodles-cafe",
+      "price": 85000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "image": "/images/products/noodles.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "14",
+      "name": "The Egg Chicken Rice",
+      "slug": "the-egg-chicken-rice",
+      "price": 45000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Lunch",
+        "Dinner",
+        "Starters"
+      ],
+      "image": "/images/products/egg_chicken_rice.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "15",
+      "name": "The French King",
+      "slug": "the-french-king",
+      "price": 55000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Fast Food",
+        "Starters"
+      ],
+      "image": "/images/products/fries_king.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "16",
+      "name": "The Pasta Cafe",
+      "slug": "the-pasta-cafe",
+      "price": 45000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Fast Food",
+        "Dinner",
+        "Breakfast",
+        "Lunch"
+      ],
+      "image": "/images/products/pasta_cafe.webp",
+      "rating": 4.6,
+      "isPopular": true
+    },
+    {
+      "id": "17",
+      "name": "The Rice House",
+      "slug": "the-rice-house",
+      "price": 55000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Lunch",
+        "Dinner"
+      ],
+      "image": "/images/products/rice_house.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "18",
+      "name": "The Noodle",
+      "slug": "the-noodle",
+      "price": 85000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "image": "/images/products/noodle_cafe.webp",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "19",
+      "name": "Schezwan Noodles",
+      "slug": "schezwan-noodles",
+      "price": 85000,
+      "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+      "category": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "image": "/images/products/image1.png",
+      "rating": 4.5,
+      "isPopular": false
+    },
+    {
+      "id": "20",
+      "name": "Spicy Chicken Wings",
+      "slug": "spicy-chicken-wings",
+      "price": 39000,
+      "description": "Crispy wings tossed in our signature spicy sauce.",
+      "category": [
+        "Lunch",
+        "Dinner"
+      ],
+      "image": "/images/products/image2.png",
+      "rating": 4.3,
+      "isPopular": false
+    },
+    {
+      "id": "21",
+      "name": "Classic Beef Burger",
+      "slug": "classic-beef-burger",
+      "price": 55000,
+      "description": "Juicy beef patty with cheddar, pickles, and our special sauce.",
+      "category": [
+        "Fast Food",
+        "Breakfast",
+        "Starters"
+      ],
+      "image": "/images/products/image3.png",
+      "rating": 4.2,
+      "isPopular": true
+    },
+    {
+      "id": "22",
+      "name": "Beef Burger",
+      "slug": "beef-burger",
+      "price": 55000,
+      "description": "Juicy beef patty with cheddar, pickles, and our special sauce.",
+      "category": [
+        "Fast Food",
+        "Breakfast",
+        "Starters"
+      ],
+      "image": "/images/products/image3.png",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "23",
+      "name": "Spicy Club",
+      "slug": "beef-burger",
+      "price": 150000,
+      "description": "Pork, chicken and vegetable fried rolls served with lettuce wraps",
+      "category": [
+        "Lunch",
+        "Dinner"
+      ],
+      "image": "/images/products/image4.png",
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "24",
+      "name": "Almond Baked Brie",
+      "slug": "almond-baked-brie",
+      "price": 165000,
+      "description": "Pork, chicken and vegetable fried rolls served with lettuce wraps",
+      "category": [
+        "Lunch",
+        "Dinner",
+        "Starters"
+      ],
+      "image": "/images/products/image6.png",
+      "rating": 4.6,
+      "isPopular": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "1745384883579",
+      "customerInfo": {
+        "name": "Thanh Tùng",
+        "email": "sontung93@gmail.com",
+        "phone": "12312312311",
+        "address": "Thái Bình",
+        "note": ""
+      },
+      "cartItems": [
+        {
+          "id": "4",
+          "name": "Chicken",
+          "image": "/images/products/wings.webp",
+          "price": 45000,
+          "quantity": 3
+        },
+        {
+          "id": "14",
+          "name": "The Egg Chicken Rice",
+          "image": "/images/products/egg_chicken_rice.webp",
+          "price": 45000,
+          "quantity": 2
+        }
+      ],
+      "summary": {
+        "subtotal": 225000,
+        "discount": 50000,
+        "shippingFee": 30000,
+        "total": 145000
+      },
+      "createdAt": "2025-04-23T05:08:03.580Z",
+      "status": "pending"
+    },
+    {
+      "id": "1745385724792",
+      "customerInfo": {
+        "name": "Thanh Tùng",
+        "email": "sontung93@gmail.com",
+        "phone": "12412312312",
+        "address": "Thái Bình",
+        "note": ""
+      },
+      "cartItems": [
+        {
+          "id": "4",
+          "name": "Chicken",
+          "image": "/images/products/wings.webp",
+          "price": 45000,
+          "quantity": 4
+        },
+        {
+          "id": "10",
+          "name": "The Steak Cafe",
+          "image": "/images/products/steak_cafe.webp",
+          "price": 65000,
+          "quantity": 4
+        }
+      ],
+      "summary": {
+        "subtotal": 440000,
+        "discount": 50000,
+        "shippingFee": 30000,
+        "total": 360000
+      },
+      "createdAt": "2025-04-23T05:22:04.792Z",
+      "status": "pending"
+    }
+  ],
+  "subscribe": [
+    {
+      "id": "0b0b",
+      "email": "dad@gmail.com"
+    }
+  ]
+}
