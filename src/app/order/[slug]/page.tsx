@@ -3,8 +3,13 @@ import React from 'react';
 import ProductDetail from '@/components/order/ProductDetail';
 import { getProductBySlug } from '@/lib/api';
 
-const page = async ({ params }: { params: { slug: string } }) => {
-    const product = await getProductBySlug(params.slug);
+export default async function Page({
+    params,
+}: {
+    params: Promise<{ slug: string }>;
+}) {
+    const { slug } = await params;
+    const product = await getProductBySlug(slug);
     console.log('>>Check: ', product);
 
     return (
@@ -12,6 +17,4 @@ const page = async ({ params }: { params: { slug: string } }) => {
             <ProductDetail product={product} />
         </div>
     );
-};
-
-export default page;
+}

@@ -1,4 +1,6 @@
-export const saveCartToLocalStorage = (cartItems: any) => {
+import { CartItem } from '@/types/order';
+
+export const saveCartToLocalStorage = (cartItems: CartItem[]) => {
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
 };
 

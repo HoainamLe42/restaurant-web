@@ -26,11 +26,10 @@ import {
     selectTotalPrice,
 } from '@/features/cart/cartSlice';
 import { AppDispatch } from '@/features/store';
-import { CartItem } from '@/types/cartItem';
-import { CustomerInfo, Order } from '@/types/order';
+import { CartItem, CustomerInfo, Order } from '@/types/order';
 import { validateCustomerInfo } from '@/utils/validators';
 
-const page = () => {
+const Page = () => {
     const dispatch = useDispatch<AppDispatch>();
     const cartItems = useSelector(selectCartItems);
     const [couponCode, setCouponCode] = useState<string>('');
@@ -52,7 +51,7 @@ const page = () => {
         address: '',
         note: '',
     });
-    const [isSending, setIsSending] = useState(false);
+    // const [isSending, setIsSending] = useState(false);
     const [errors, setErrors] = useState<Partial<CustomerInfo>>({});
 
     const handleAddToCart = (product: CartItem) => {
@@ -96,7 +95,7 @@ const page = () => {
 
         if (isValid) {
             try {
-                setIsSending(true);
+                // setIsSending(true);
 
                 const generateId = () => String(Date.now());
                 const order: Order = {
@@ -134,9 +133,11 @@ const page = () => {
             } catch (error) {
                 console.error('❌ Gửi thất bại:', error);
                 toast.error('Có lỗi xảy ra!');
-            } finally {
-                setIsSending(false);
             }
+
+            // finally {
+            //     setIsSending(false);
+            // }
         }
     };
 
@@ -364,4 +365,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

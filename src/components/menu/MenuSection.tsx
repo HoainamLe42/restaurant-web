@@ -45,9 +45,9 @@ const MenuSection: React.FC<{ title: string; products: Product[] }> = ({
                             prevEl: nextRef.current,
                         }}
                         onInit={(swiper) => {
-                            // @ts-ignore
+                            // @ts-expect-error: third-party lib type mismatch, safe to ignore
                             swiper.params.navigation.prevEl = prevRef.current;
-                            // @ts-ignore
+                            // @ts-expect-error: third-party lib type mismatch, safe to ignore
                             swiper.params.navigation.nextEl = nextRef.current;
                             swiper.navigation.init();
                             swiper.navigation.update();
