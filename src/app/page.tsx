@@ -24,7 +24,7 @@ import {
 } from '@/features/products/productSlice';
 import LoadingSpinner from '@/components/share/LoadingSpinner';
 
-const page = () => {
+const Page = () => {
     const dispatch = useDispatch<AppDispatch>();
     const loading = useSelector(selectProductLoading);
     const products = useSelector(selectAllProducts);
@@ -63,4 +63,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

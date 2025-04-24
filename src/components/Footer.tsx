@@ -117,10 +117,12 @@ const Footer = () => {
                                     style={{ backgroundColor: item.color }}
                                 >
                                     <Link href={item.href}>
-                                        <img
+                                        <Image
                                             src={item.icon}
                                             alt=""
-                                            className="w-3"
+                                            width={12}
+                                            height={12}
+                                            className="w-3 h-auto object-cover"
                                         />
                                     </Link>
                                 </li>

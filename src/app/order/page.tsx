@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: 'Browse and filter your items to make an order.',
 };
 
-const page = () => {
+const Page = () => {
     return (
         <div className="pt-[50px] pb-0 md:py-[100px]">
             <Container>
@@ -22,4 +22,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

@@ -4,8 +4,9 @@ import Title from '../share/Title';
 import Link from 'next/link';
 import { MoveRight } from 'lucide-react';
 import PopularFoodSection from './PopularFoodCard';
+import { Product } from '@/types/product';
 
-const MostPopularFoodSection: React.FC<{ data: any }> = ({ data }) => {
+const MostPopularFoodSection: React.FC<{ data: Product[] }> = ({ data }) => {
     return (
         <section className="py-5.5 md:py-12">
             <Container>
@@ -17,7 +18,7 @@ const MostPopularFoodSection: React.FC<{ data: any }> = ({ data }) => {
                 />
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7.5 mt-10 md:mt-14">
-                    {data.map((item: any) => (
+                    {data.map((item) => (
                         <PopularFoodSection key={item.id} item={item} />
                     ))}
                 </div>

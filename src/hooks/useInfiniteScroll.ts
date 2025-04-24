@@ -7,6 +7,7 @@ import { AppDispatch } from '@/features/store';
 export const useInfiniteScroll = () => {
     const dispatch = useDispatch<AppDispatch>();
     const loader = useRef<HTMLDivElement | null>(null);
+    const target = loader.current;
 
     const handleObserver = useCallback(
         (entries: IntersectionObserverEntry[]) => {
@@ -26,12 +27,12 @@ export const useInfiniteScroll = () => {
         };
 
         const observer = new IntersectionObserver(handleObserver, option);
-        if (loader.current) observer.observe(loader.current);
+        if (target) observer.observe(target);
 
         return () => {
-            if (loader.current) observer.unobserve(loader.current);
+            if (target) observer.unobserve(target);
         };
-    }, [handleObserver]);
+    }, [handleObserver, target]);
 
     return loader;
 };

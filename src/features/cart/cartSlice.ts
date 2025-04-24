@@ -1,7 +1,7 @@
-import { CartItem } from '@/types/cartItem';
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../store';
 import { loadCartFromLocalStorage } from '@/utils/localStorage';
+import { CartItem } from '@/types/order';
 
 interface CartState {
     items: CartItem[];
@@ -67,10 +67,6 @@ export const cartSlice = createSlice({
 
             if (coupons[code]) {
                 state.coupon = code;
-                const total = state.items.reduce(
-                    (total, item) => total + item.price * item.quantity,
-                    0,
-                );
 
                 state.discount = coupons[code].value;
                 state.labelCoupon = coupons[code].label;

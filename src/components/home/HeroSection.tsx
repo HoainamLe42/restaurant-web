@@ -23,9 +23,9 @@ const HeroSection = () => {
                             data-aos="fade-up"
                             className="text-white80 mt-4.5 mb-8.5 md:mt-5 md:mb-10 text-sm md:text-base"
                         >
-                            There's evidence that cooking, like other creative
-                            practices, can boost well-being, self-esteem, and
-                            other measures of mental health.
+                            There&apos;t evidence that cooking, like other
+                            creative practices, can boost well-being,
+                            self-esteem, and other measures of mental health.
                         </p>
                         <Link
                             data-aos="zoom-in"

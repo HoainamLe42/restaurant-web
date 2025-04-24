@@ -7,6 +7,7 @@ import { navData } from '@/data/navData';
 import Container from './Container';
 import { AlignLeft } from 'lucide-react';
 import CartIcon from './share/CartIcon';
+import Image from 'next/image';
 
 const Header = () => {
     const [isActiveScroll, setIsActiveScroll] = useState<boolean>(false);
@@ -47,7 +48,7 @@ const Header = () => {
                         </ul>
                     </nav>
                     {/* Logo */}
-                    <img
+                    <Image
                         src="/images/logo.svg"
                         alt="Restaurant Logo - Your favorite restaurant"
                         width={55}

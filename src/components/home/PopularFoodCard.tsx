@@ -1,9 +1,10 @@
+import { Product } from '@/types/product';
 import { Star } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const PopularFoodSection: React.FC<{ item: any }> = ({ item }) => {
+const PopularFoodSection: React.FC<{ item: Product }> = ({ item }) => {
     return (
         <div
             data-aos="zoom-in"
@@ -42,7 +43,7 @@ const PopularFoodSection: React.FC<{ item: any }> = ({ item }) => {
                             <Star
                                 key={index}
                                 className={`${
-                                    index < Math.floor(item.rating)
+                                    index < Math.floor(item.rating ?? 0)
                                         ? 'text-yellow-400'
                                         : 'text-gray-300'
                                 }`}
