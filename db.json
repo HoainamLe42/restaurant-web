@@ -414,12 +414,327 @@
       },
       "createdAt": "2025-04-23T05:22:04.792Z",
       "status": "pending"
+    },
+    {
+      "id": "1745472515258",
+      "customerInfo": {
+        "name": "Thanh Tùng",
+        "email": "sontung93@gmail.com",
+        "phone": "12312312311",
+        "address": "Thái Bình",
+        "note": ""
+      },
+      "cartItems": [
+        {
+          "id": "20",
+          "name": "Spicy Chicken Wings",
+          "image": "/images/products/image2.png",
+          "price": 39000,
+          "quantity": 4
+        },
+        {
+          "id": "23",
+          "name": "Spicy Club",
+          "image": "/images/products/image4.png",
+          "price": 150000,
+          "quantity": 1
+        }
+      ],
+      "summary": {
+        "subtotal": 306000,
+        "discount": 50000,
+        "shippingFee": 30000,
+        "total": 226000
+      },
+      "createdAt": "2025-04-24T05:28:35.258Z",
+      "status": "pending"
+    },
+    {
+      "id": "1750318502443",
+      "customerInfo": {
+        "name": "Thanh Tùng",
+        "email": "sontung93@gmail.com",
+        "phone": "12312312311",
+        "address": "Thái Bình",
+        "note": ""
+      },
+      "cartItems": [
+        {
+          "id": "20",
+          "name": "Spicy Chicken Wings",
+          "image": "/images/products/image2.png",
+          "price": 39000,
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "Chicken",
+          "image": "/images/products/wings.webp",
+          "price": 45000,
+          "quantity": 2
+        }
+      ],
+      "summary": {
+        "subtotal": 168000,
+        "discount": 10000,
+        "shippingFee": 30000,
+        "total": 128000
+      },
+      "createdAt": "2025-06-19T07:35:02.443Z",
+      "status": "pending"
+    },
+    {
+      "id": "1751942184491",
+      "customerInfo": {
+        "name": "Thanh Tùng",
+        "email": "sontung93@gmail.com",
+        "phone": "12312312311",
+        "address": "Thái Bình",
+        "note": ""
+      },
+      "cartItems": [
+        {
+          "id": "20",
+          "name": "Spicy Chicken Wings",
+          "image": "/images/products/image2.png",
+          "price": 39000,
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Chicken",
+          "image": "/images/products/wings.webp",
+          "price": 45000,
+          "quantity": 1
+        }
+      ],
+      "summary": {
+        "subtotal": 84000,
+        "discount": 0,
+        "shippingFee": 30000,
+        "total": 54000
+      },
+      "createdAt": "2025-07-08T02:36:24.491Z",
+      "status": "pending"
+    },
+    {
+      "id": "1751994924517",
+      "customerInfo": {
+        "name": "Thanh Tùng",
+        "email": "sontung93@gmail.com",
+        "phone": "12312312311",
+        "address": "212",
+        "note": ""
+      },
+      "cartItems": [
+        {
+          "id": "20",
+          "name": "Spicy Chicken Wings",
+          "image": "/images/products/image2.png",
+          "price": 39000,
+          "quantity": 3
+        },
+        {
+          "id": "4",
+          "name": "Chicken",
+          "image": "/images/products/wings.webp",
+          "price": 45000,
+          "quantity": 4
+        },
+        {
+          "id": "14",
+          "name": "The Egg Chicken Rice",
+          "image": "/images/products/egg_chicken_rice.webp",
+          "price": 45000,
+          "quantity": 3
+        },
+        {
+          "id": "16",
+          "name": "The Pasta Cafe",
+          "image": "/images/products/pasta_cafe.webp",
+          "price": 45000,
+          "quantity": 2
+        }
+      ],
+      "summary": {
+        "subtotal": 522000,
+        "discount": 10000,
+        "shippingFee": 30000,
+        "total": 482000
+      },
+      "createdAt": "2025-07-08T17:15:24.517Z",
+      "status": "pending"
     }
   ],
   "subscribe": [
     {
       "id": "0b0b",
       "email": "dad@gmail.com"
+    },
+    {
+      "id": "e053",
+      "email": "hoainam@gmail.com"
+    },
+    {
+      "id": "db80",
+      "email": "asad@gmail.com"
+    },
+    {
+      "id": "2f03",
+      "email": "hoaidad@gmail.com"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "1",
+      "title": "Gặp gỡ bếp trưởng của chúng tôi",
+      "slug": "gap-go-bep-truong",
+      "excerpt": "Khám phá hành trình và đam mê ẩm thực của bếp trưởng Nguyễn Văn A – người đứng sau những món ăn đặc sắc tại nhà hàng.",
+      "thumbnail": "/images/blog/image1.png",
+      "category": "Câu chuyện nhà hàng",
+      "date": "2025-05-08",
+      "author": "Admin",
+      "tags": [
+        "bếp trưởng",
+        "ẩm thực",
+        "câu chuyện"
+      ],
+      "content": "..."
+    },
+    {
+      "id": "2",
+      "title": "Nguồn gốc rau củ tươi sạch tại nhà hàng",
+      "slug": "nguon-goc-rau-cu",
+      "excerpt": "Tại sao chúng tôi chọn rau hữu cơ từ Đà Lạt và đảm bảo sự tươi ngon mỗi ngày cho khách hàng?",
+      "thumbnail": "/images/blog/image2.png",
+      "category": "Nguyên liệu & Quy trình",
+      "date": "2025-05-06",
+      "author": "Admin",
+      "tags": [
+        "nguyên liệu",
+        "rau củ",
+        "an toàn thực phẩm"
+      ],
+      "content": "..."
+    },
+    {
+      "id": "3",
+      "title": "Một ngày trong căn bếp của chúng tôi",
+      "slug": "mot-ngay-trong-bep",
+      "excerpt": "Theo chân đội ngũ bếp để thấy được công việc phía sau mỗi món ăn bạn thưởng thức.",
+      "thumbnail": "/images/blog/image3.png",
+      "category": "Hậu trường nhà hàng",
+      "date": "2025-05-05",
+      "author": "Admin",
+      "tags": [
+        "hậu trường",
+        "quy trình",
+        "bếp"
+      ],
+      "content": "..."
+    },
+    {
+      "id": "4",
+      "title": "Câu chuyện ra đời của nhà hàng",
+      "slug": "cau-chuyen-nha-hang",
+      "excerpt": "Chúng tôi bắt đầu từ một căn bếp nhỏ và một ước mơ lớn. Hành trình xây dựng thương hiệu bắt đầu từ đâu?",
+      "thumbnail": "/images/blog/image4.png",
+      "category": "Câu chuyện nhà hàng",
+      "date": "2025-05-03",
+      "author": "Admin",
+      "tags": [
+        "lịch sử",
+        "thương hiệu",
+        "định hướng"
+      ],
+      "content": "..."
+    },
+    {
+      "id": "5",
+      "title": "Món ăn theo mùa – Sự sáng tạo đến từ thiên nhiên",
+      "slug": "mon-an-theo-mua",
+      "excerpt": "Khám phá các món ăn mới theo từng mùa và lý do vì sao chúng tôi chọn nguyên liệu theo mùa vụ.",
+      "thumbnail": "/images/blog/image5.png",
+      "category": "Ẩm thực & Mùa vụ",
+      "date": "2025-05-01",
+      "author": "Admin",
+      "tags": [
+        "ẩm thực theo mùa",
+        "sáng tạo",
+        "nguyên liệu tươi"
+      ],
+      "content": "..."
+    }
+  ],
+  "reservations": [
+    {
+      "id": "3972",
+      "name": "Thanh Tùng",
+      "phone": "0918273645",
+      "guests": 1,
+      "date": "2025-07-12",
+      "time": "19:37",
+      "notes": "test 1"
+    },
+    {
+      "id": "9e7c",
+      "name": "Thanh Tùng",
+      "phone": "0918273645",
+      "guests": 1,
+      "date": "2025-07-20",
+      "time": "10:54",
+      "notes": "saa"
+    },
+    {
+      "id": "a156",
+      "name": "toyama",
+      "phone": "0917827745",
+      "guests": "4",
+      "date": "2025-07-19",
+      "time": "02:19",
+      "notes": "sdasdasd"
+    }
+  ],
+  "login": [
+    {
+      "id": "b35f",
+      "email": "sontung93@gmail.com",
+      "password": "12345121"
+    },
+    {
+      "id": "4012",
+      "email": "sontung93@gmail.com",
+      "password": "123123123"
+    },
+    {
+      "id": "4c7e",
+      "email": "sontung93@gmail.com",
+      "password": "123123123"
+    },
+    {
+      "id": "4606",
+      "email": "sontung93@gmail.com",
+      "password": "1212121"
+    },
+    {
+      "id": "769a",
+      "email": "sontung93@gmail.com",
+      "password": "1212122"
+    },
+    {
+      "id": "858e",
+      "email": "sontung93@gmail.com",
+      "password": "123213123"
+    },
+    {
+      "id": "a423",
+      "email": "sontung93@gmail.com",
+      "password": "1121212"
+    },
+    {
+      "id": "24f7",
+      "email": "sontung93@gmail.com",
+      "password": "1212121212"
     }
   ]
 }

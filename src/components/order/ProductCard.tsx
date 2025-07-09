@@ -43,6 +43,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
                     alt={product.name}
                     width={200}
                     height={160}
+                    loading="lazy"
                     className="w-full h-40 object-cover rounded cursor-pointer"
                 />
             </Link>

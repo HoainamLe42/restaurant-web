@@ -6,7 +6,7 @@ import Button from '../share/Button';
 
 const OurBlogSection = () => {
     return (
-        <section className="py-6.5 md:py-14">
+        <section className="hidden md:block py-6.5 md:py-14">
             <Container>
                 <Title title="Recent Articles" eyebrow="Our blog" />
 

@@ -1,14 +1,9 @@
 import { CartItem } from '@/types/order';
 
-export const saveCartToLocalStorage = (cartItems: CartItem[]) => {
-    localStorage.setItem('cartItems', JSON.stringify(cartItems));
-};
-
-export const loadCartFromLocalStorage = () => {
-    try {
-        const data = localStorage.getItem('cartItems');
+export const loadCartFromLocalStorage = (): CartItem[] => {
+    if (typeof window !== 'undefined') {
+        const data = localStorage.getItem('cart');
         return data ? JSON.parse(data) : [];
-    } catch {
-        return [];
     }
+    return [];
 };
