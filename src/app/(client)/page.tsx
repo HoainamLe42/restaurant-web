@@ -42,7 +42,7 @@ const Page = () => {
     }, []);
 
     return (
-        <div className="pt-[110px]">
+        <div className="pt-[110px] bg-black">
             {loading ? (
                 <LoadingSpinner />
             ) : (

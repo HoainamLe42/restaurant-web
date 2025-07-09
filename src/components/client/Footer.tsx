@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <footer className=" pt-[50px] pb-10">
+        <footer className=" pt-[50px] pb-10 bg-black">
             <Container>
                 <div className="flex flex-wrap gap-x-5 gap-y-7 md:gap-[77px]">
                     {/* Colum 1 */}

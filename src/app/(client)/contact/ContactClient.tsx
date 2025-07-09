@@ -36,7 +36,7 @@ const ContactClient = () => {
     };
 
     return (
-        <div className="pt-30 pb-3 md:pt-[170px] md:pb-20">
+        <div className="pt-30 pb-3 md:pt-[170px] md:pb-20 bg-black">
             <Container>
                 <div className="grid gap-10 grid-cols-1 items-center md:grid-cols-2">
                     {/* Info */}
