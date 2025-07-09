@@ -8,6 +8,7 @@ import { AppDispatch } from '@/features/store';
 import { addToCart } from '@/features/cart/cartSlice';
 import toast from 'react-hot-toast';
 import Button from '../share/Button';
+import Link from 'next/link';
 
 // Only extract necessary fields to add to cart
 type CartItem = Pick<Product, 'id' | 'name' | 'image' | 'price'>;
@@ -47,13 +48,15 @@ const ListView: React.FC<{
                             key={product.id}
                             className="flex gap-6 items-start scale-95 hover:scale-100 hover:shadow-2xl hover:bg-gray-700 transition-all duration-150 cursor-pointer hover:border-r-4 hover:border-r-primary/60 group"
                         >
-                            <Image
-                                src={product.image}
-                                alt={product.name}
-                                width={300}
-                                height={200}
-                                className="w-[200px] h-[200px] object-cover"
-                            />
+                            <Link href={`/order/${product.slug}`}>
+                                <Image
+                                    src={product.image}
+                                    alt={product.name}
+                                    width={300}
+                                    height={200}
+                                    className="w-[200px] h-[200px] object-cover"
+                                />
+                            </Link>
                             <div className="flex flex-col gap-2 justify-around">
                                 <h3 className="mt-2 font-semibold text-2xl">
                                     {product.name}

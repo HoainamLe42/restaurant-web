@@ -22,7 +22,7 @@ export const navData: NavData[] = [
     },
     {
         id: 4,
-        title: 'Blog',
+        title: 'Events & News',
         path: '/blog',
     },
     {

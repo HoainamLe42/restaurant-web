@@ -18,6 +18,7 @@
     --leading-h2: 74px;
 
     --font-libre-bodoni: 'Libre Bodoni', serif;
+    --font-Syne: 'Syne', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

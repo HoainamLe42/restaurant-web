@@ -17,7 +17,7 @@ export const coupons: Record<string, { label: string; value: number }> = {
 };
 
 const initialState: CartState = {
-    items: loadCartFromLocalStorage(),
+    items: [],
 
     coupon: null,
     discount: 0,
@@ -29,6 +29,9 @@ export const cartSlice = createSlice({
     name: 'cart',
     initialState,
     reducers: {
+        initCartFromLocalStorage(state) {
+            state.items = loadCartFromLocalStorage();
+        },
         addToCart(state, action: PayloadAction<CartItem>) {
             const existingItem = state.items.find(
                 (item) => item.id === action.payload.id,
@@ -39,6 +42,8 @@ export const cartSlice = createSlice({
             } else {
                 state.items.push(action.payload);
             }
+
+            localStorage.setItem('cart', JSON.stringify(state.items));
         },
 
         decreaseQuantity(state, action: PayloadAction<string>) {
@@ -50,16 +55,19 @@ export const cartSlice = createSlice({
                     (item) => item.id !== action.payload,
                 );
             }
+            localStorage.setItem('cart', JSON.stringify(state.items));
         },
 
         removeFromCart(state, action: PayloadAction<string>) {
             state.items = state.items.filter(
                 (item) => item.id !== action.payload,
             );
+            localStorage.setItem('cart', JSON.stringify(state.items));
         },
 
         clearCart(state) {
             state.items = [];
+            localStorage.setItem('cart', JSON.stringify(state.items));
         },
 
         applyCoupon(state, action: PayloadAction<string>) {
@@ -78,6 +86,7 @@ export const cartSlice = createSlice({
     },
 });
 export const {
+    initCartFromLocalStorage,
     addToCart,
     decreaseQuantity,
     removeFromCart,
