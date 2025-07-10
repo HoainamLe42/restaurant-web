@@ -37,7 +37,9 @@ export const fetchProducts = createAsyncThunk<Product[]>(
     'products/fetchProducts',
     async () => {
         try {
-            const res = await fetch('http://localhost:3010/products');
+            const res = await fetch(
+                `${process.env.NEXT_PUBLIC_API_URL}/products`,
+            );
             if (!res.ok) throw new Error('Failed to fetch products');
             return await res.json();
         } catch (error) {

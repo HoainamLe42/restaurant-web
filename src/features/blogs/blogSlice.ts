@@ -18,7 +18,9 @@ export const fetchBlogs = createAsyncThunk<BlogPost[]>(
     'blogs/fetchBlogs',
     async () => {
         try {
-            const res = await fetch('http://localhost:3010/blogPosts');
+            const res = await fetch(
+                `${process.env.NEXT_PUBLIC_API_URL}/blogPosts`,
+            );
             if (!res.ok) throw new Error('Failed to fetch BlogPosts');
             return await res.json();
         } catch (error) {
