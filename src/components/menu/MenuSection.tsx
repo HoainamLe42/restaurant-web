@@ -87,6 +87,8 @@ const MenuSection: React.FC<{ title: string; products: Product[] }> = ({
                                     <Image
                                         src={slide.image}
                                         alt={slide.name}
+                                        width={100}
+                                        height={256}
                                         className="w-full h-64 object-cover rounded-lg"
                                     />
 

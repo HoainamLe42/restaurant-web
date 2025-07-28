@@ -15,20 +15,22 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <ReduxProvider>
-                <body className="bg-gray-100">{children}</body>
-                <Toaster
-                    position="top-center"
-                    toastOptions={{
-                        style: {
-                            borderRadius: '8px',
-                            background: '#333',
-                            color: '#fff',
-                            padding: '12px 16px',
-                        },
-                    }}
-                />
-            </ReduxProvider>
+            <body className="bg-gray-100">
+                <ReduxProvider>
+                    {children}
+                    <Toaster
+                        position="top-center"
+                        toastOptions={{
+                            style: {
+                                borderRadius: '8px',
+                                background: '#333',
+                                color: '#fff',
+                                padding: '12px 16px',
+                            },
+                        }}
+                    />
+                </ReduxProvider>
+            </body>
         </html>
     );
 }
