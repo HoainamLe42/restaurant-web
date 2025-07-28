@@ -1,13 +1,15 @@
+'use client';
+
 import Container from '@/components/Container';
 import SidebarFilter from '@/components/order/ProductFilter/SidebarFilter';
 import ProductList from '@/components/order/ProductList';
-import { Metadata } from 'next';
+// import { Metadata } from 'next';
 
 // Metadata
-export const metadata: Metadata = {
-    title: 'Trang Order | My Restaurant',
-    description: 'Browse and filter your items to make an order.',
-};
+// export const metadata: Metadata = {
+//     title: 'Trang Order | My Restaurant',
+//     description: 'Browse and filter your items to make an order.',
+// };
 
 const Page = () => {
     return (

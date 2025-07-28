@@ -38,14 +38,6 @@ const MenuClient = () => {
     const dinnerItems = getItemsByCategory('dinner');
     const starterItems = getItemsByCategory('starters');
 
-    // useEffect(() => {
-    //     // Import AOS safely in useEffect
-    //     import('aos').then((AOS) => {
-    //         AOS.init();
-    //         AOS.refresh();
-    //     });
-    // }, []);
-
     return (
         <div className="pt-[110px]">
             {loading ? (

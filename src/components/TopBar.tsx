@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const TopBar = () => {
     return (
-        <div className="bg-gray-700 hidden md:block md:fixed z-100 w-full">
+        <div className="bg-gray-700 hidden md:block md:fixed z-100 w-full py-0.5">
             <Container>
                 <div className="w-full text-sm px-4 flex justify-between items-center text-white80">
                     <div className="flex gap-2">

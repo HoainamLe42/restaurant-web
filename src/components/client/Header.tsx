@@ -29,7 +29,7 @@ const Header = () => {
         <header
             className={`fixed w-[100vw] z-[100] ${
                 isActiveScroll
-                    ? 'bg-black shadow-lg py-3 md:mt-5'
+                    ? 'bg-black shadow-lg py-3 md:mt-6'
                     : 'md:py-3 mt-5'
             } transition-all duration-[400ms]`}
         >
