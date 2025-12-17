@@ -35,14 +35,27 @@ const initialState: ProductState = {
 
 export const fetchProducts = createAsyncThunk<Product[]>(
     'products/fetchProducts',
+    // async () => {
+    //     try {
+    //         const res = await fetch('/api/products');
+    //         if (!res.ok) throw new Error('Failed to fetch products');
+    //         return await res.json();
+    //     } catch (error) {
+    //         console.error('Fetch Error: ', error);
+    //         throw error;
+    //     }
+    // },
+
     async () => {
         try {
-            const res = await fetch('/api/products');
+            const res = await fetch('/data/db.json');
             if (!res.ok) throw new Error('Failed to fetch products');
-            return await res.json();
-        } catch (error) {
-            console.error('Fetch Error: ', error);
-            throw error;
+
+            const data = await res.json();
+            console.log('✅ API fetched data:', data.products); // ← check data tại đây
+            return data.products;
+        } catch (error: any) {
+            console.error('❌ Fetch failed:', error.message);
         }
     },
 );

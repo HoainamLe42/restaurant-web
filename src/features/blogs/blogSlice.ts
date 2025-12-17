@@ -16,19 +16,45 @@ const initialState: BlogState = {
 
 export const fetchBlogs = createAsyncThunk<BlogPost[]>(
     'blogs/fetchBlogs',
+    // async () => {
+    //     try {
+    //         const res = await fetch(
+    //             `${process.env.NEXT_PUBLIC_API_URL}/blogPosts`,
+    //         );
+    //         if (!res.ok) throw new Error('Failed to fetch BlogPosts');
+    //         return await res.json();
+    //     } catch (error) {
+    //         console.error('Fetch Error: ', error);
+    //         throw error;
+    //     }
+    // },
+
     async () => {
         try {
-            const res = await fetch(
-                `${process.env.NEXT_PUBLIC_API_URL}/blogPosts`,
-            );
+            const res = await fetch('/data/db.json');
             if (!res.ok) throw new Error('Failed to fetch BlogPosts');
-            return await res.json();
-        } catch (error) {
-            console.error('Fetch Error: ', error);
-            throw error;
+
+            const data = await res.json();
+            console.log('✅ API fetched data:', data.blogPosts); // ← check data tại đây
+            return data.blogPosts;
+        } catch (error: any) {
+            console.error('❌ Fetch failed:', error.message);
         }
     },
 );
+
+async function getData() {
+    try {
+        const res = await fetch('/data/db.json');
+        if (!res.ok) throw new Error('Failed to fetch');
+
+        const data = await res.json();
+        console.log('✅ API fetched data:', data.blogPosts); // ← check data tại đây
+        return data;
+    } catch (error: any) {
+        console.error('❌ Fetch failed:', error.message);
+    }
+}
 
 const blogSlice = createSlice({
     name: 'blogs',

@@ -1,9 +1,10 @@
 // app/api/products/route.ts
 export async function GET() {
     try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/products`, {
-            cache: 'no-store',
-        });
+        // const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/products`, {
+        //     cache: 'no-store',
+        // });
+        const res = await fetch('/data/db.json');
 
         if (!res.ok) {
             console.error('❌ External API responded with status', res.status);
@@ -14,7 +15,7 @@ export async function GET() {
         console.log('✅ API fetched data:', data); // ← check data tại đây
 
         return Response.json(data);
-    } catch (error: any) {
+    } catch (error) {
         console.error('❌ Fetch failed:', error.message);
         return new Response(JSON.stringify({ error: error.message }), {
             status: 500,

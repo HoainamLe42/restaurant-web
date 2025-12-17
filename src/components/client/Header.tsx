@@ -25,6 +25,7 @@ const Header = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
     return (
         <header
             className={`fixed w-[100vw] z-[100] ${
