@@ -54,8 +54,9 @@ export const fetchProducts = createAsyncThunk<Product[]>(
             const data = await res.json();
             console.log('✅ API fetched data:', data.products); // ← check data tại đây
             return data.products;
-        } catch (error: any) {
-            console.error('❌ Fetch failed:', error.message);
+        } catch (error) {
+            console.error('Fetch Error: ', error);
+            throw error;
         }
     },
 );

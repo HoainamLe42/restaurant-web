@@ -37,24 +37,12 @@ export const fetchBlogs = createAsyncThunk<BlogPost[]>(
             const data = await res.json();
             console.log('✅ API fetched data:', data.blogPosts); // ← check data tại đây
             return data.blogPosts;
-        } catch (error: any) {
-            console.error('❌ Fetch failed:', error.message);
+        } catch (error) {
+            console.error('Fetch Error: ', error);
+            throw error;
         }
     },
 );
-
-async function getData() {
-    try {
-        const res = await fetch('/data/db.json');
-        if (!res.ok) throw new Error('Failed to fetch');
-
-        const data = await res.json();
-        console.log('✅ API fetched data:', data.blogPosts); // ← check data tại đây
-        return data;
-    } catch (error: any) {
-        console.error('❌ Fetch failed:', error.message);
-    }
-}
 
 const blogSlice = createSlice({
     name: 'blogs',
@@ -64,7 +52,7 @@ const blogSlice = createSlice({
         builder
             .addCase(fetchBlogs.pending, (state) => {
                 state.loading = true;
-                state.error = null;
+                // state.error = null;
             })
             .addCase(
                 fetchBlogs.fulfilled,
