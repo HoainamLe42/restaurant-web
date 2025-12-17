@@ -1,0 +1,640 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "The Burger Cafe",
+            "slug": "the-burger-cafe",
+            "price": 75000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Burger", "Breakfast"],
+            "image": "/images/products/burger.webp",
+            "rating": 4.6,
+            "isPopular": true
+        },
+        {
+            "id": "2",
+            "name": "The Pizza Hut",
+            "slug": "the-pizza-hut",
+            "price": 80000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Pizza", "Breakfast"],
+            "image": "/images/products/pizza.webp",
+            "rating": 4.5,
+            "isPopular": true
+        },
+        {
+            "id": "3",
+            "name": "Caprese Sandwich Hub",
+            "slug": "caprese-sandwich-hub",
+            "price": 55000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Sandwiches", "Breakfast"],
+            "image": "/images/products/sandwick.webp",
+            "rating": 4.1
+        },
+        {
+            "id": "4",
+            "name": "Chicken",
+            "slug": "chicken",
+            "price": 45000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Chicken", "Breakfast"],
+            "image": "/images/products/wings.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "5",
+            "name": "The Coffee Express",
+            "slug": "the-coffee-express",
+            "price": 49000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Coffee", "Drinks"],
+            "image": "/images/products/coffee.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "6",
+            "name": "The Biryani House",
+            "slug": "the-biryani-house",
+            "price": 75000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Lunch", "Dinner"],
+            "image": "/images/products/biryani.webp",
+            "rating": 4,
+            "isPopular": true
+        },
+        {
+            "id": "7",
+            "name": "Fast Food Hub",
+            "slug": "fast-Food-hub",
+            "price": 75000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Fast Food", "Breakfast"],
+            "image": "/images/products/fast_food_hub.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "8",
+            "name": "Fast Food Cafe",
+            "slug": "fast-food-cafe",
+            "price": 55000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Fast Food", "Breakfast"],
+            "image": "/images/products/fast_food_cafe.webp",
+            "rating": 4.8,
+            "isPopular": false
+        },
+        {
+            "id": "9",
+            "name": "Fried Chicken Hub",
+            "slug": "fried-chicken-hub",
+            "price": 95000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Chicken", "Breakfast"],
+            "image": "/images/products/fried_chicken.webp",
+            "rating": 4.6,
+            "isPopular": true
+        },
+        {
+            "id": "10",
+            "name": "The Steak Cafe",
+            "slug": "the-steak-cafe",
+            "type": "Fast Food",
+            "price": 65000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Drinks", "Breakfast"],
+            "image": "/images/products/steak_cafe.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "11",
+            "name": "The Pizza King",
+            "slug": "the-pizza-king",
+            "type": "Pizza",
+            "price": 99000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Breakfast"],
+            "image": "/images/products/pizza_king.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "12",
+            "name": "The French Fries",
+            "slug": "the-french-fries",
+            "price": 79000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Fast Food", "Breakfast"],
+            "image": "/images/products/fries.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "13",
+            "name": "The Noodles Cafe",
+            "slug": "the-noodles-cafe",
+            "price": 85000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Breakfast", "Lunch", "Dinner"],
+            "image": "/images/products/noodles.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "14",
+            "name": "The Egg Chicken Rice",
+            "slug": "the-egg-chicken-rice",
+            "price": 45000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Lunch", "Dinner", "Starters"],
+            "image": "/images/products/egg_chicken_rice.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "15",
+            "name": "The French King",
+            "slug": "the-french-king",
+            "price": 55000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Fast Food", "Starters"],
+            "image": "/images/products/fries_king.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "16",
+            "name": "The Pasta Cafe",
+            "slug": "the-pasta-cafe",
+            "price": 45000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Fast Food", "Dinner", "Breakfast", "Lunch"],
+            "image": "/images/products/pasta_cafe.webp",
+            "rating": 4.6,
+            "isPopular": true
+        },
+        {
+            "id": "17",
+            "name": "The Rice House",
+            "slug": "the-rice-house",
+            "price": 55000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Lunch", "Dinner"],
+            "image": "/images/products/rice_house.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "18",
+            "name": "The Noodle",
+            "slug": "the-noodle",
+            "price": 85000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Breakfast", "Lunch", "Dinner"],
+            "image": "/images/products/noodle_cafe.webp",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "19",
+            "name": "Schezwan Noodles",
+            "slug": "schezwan-noodles",
+            "price": 85000,
+            "description": "Fresh toasted sourdough bread with olive oil and pomegranate.",
+            "category": ["Breakfast", "Lunch", "Dinner"],
+            "image": "/images/products/image1.png",
+            "rating": 4.5,
+            "isPopular": false
+        },
+        {
+            "id": "20",
+            "name": "Spicy Chicken Wings",
+            "slug": "spicy-chicken-wings",
+            "price": 39000,
+            "description": "Crispy wings tossed in our signature spicy sauce.",
+            "category": ["Lunch", "Dinner"],
+            "image": "/images/products/image2.png",
+            "rating": 4.3,
+            "isPopular": false
+        },
+        {
+            "id": "21",
+            "name": "Classic Beef Burger",
+            "slug": "classic-beef-burger",
+            "price": 55000,
+            "description": "Juicy beef patty with cheddar, pickles, and our special sauce.",
+            "category": ["Fast Food", "Breakfast", "Starters"],
+            "image": "/images/products/image3.png",
+            "rating": 4.2,
+            "isPopular": true
+        },
+        {
+            "id": "22",
+            "name": "Beef Burger",
+            "slug": "beef-burger",
+            "price": 55000,
+            "description": "Juicy beef patty with cheddar, pickles, and our special sauce.",
+            "category": ["Fast Food", "Breakfast", "Starters"],
+            "image": "/images/products/image3.png",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "23",
+            "name": "Spicy Club",
+            "slug": "beef-burger",
+            "price": 150000,
+            "description": "Pork, chicken and vegetable fried rolls served with lettuce wraps",
+            "category": ["Lunch", "Dinner"],
+            "image": "/images/products/image4.png",
+            "rating": 4.6,
+            "isPopular": false
+        },
+        {
+            "id": "24",
+            "name": "Almond Baked Brie",
+            "slug": "almond-baked-brie",
+            "price": 165000,
+            "description": "Pork, chicken and vegetable fried rolls served with lettuce wraps",
+            "category": ["Lunch", "Dinner", "Starters"],
+            "image": "/images/products/image6.png",
+            "rating": 4.6,
+            "isPopular": true
+        }
+    ],
+    "orders": [
+        {
+            "id": "1745384883579",
+            "customerInfo": {
+                "name": "Thanh Tùng",
+                "email": "sontung93@gmail.com",
+                "phone": "12312312311",
+                "address": "Thái Bình",
+                "note": ""
+            },
+            "cartItems": [
+                {
+                    "id": "4",
+                    "name": "Chicken",
+                    "image": "/images/products/wings.webp",
+                    "price": 45000,
+                    "quantity": 3
+                },
+                {
+                    "id": "14",
+                    "name": "The Egg Chicken Rice",
+                    "image": "/images/products/egg_chicken_rice.webp",
+                    "price": 45000,
+                    "quantity": 2
+                }
+            ],
+            "summary": {
+                "subtotal": 225000,
+                "discount": 50000,
+                "shippingFee": 30000,
+                "total": 145000
+            },
+            "createdAt": "2025-04-23T05:08:03.580Z",
+            "status": "pending"
+        },
+        {
+            "id": "1745385724792",
+            "customerInfo": {
+                "name": "Thanh Tùng",
+                "email": "sontung93@gmail.com",
+                "phone": "12412312312",
+                "address": "Thái Bình",
+                "note": ""
+            },
+            "cartItems": [
+                {
+                    "id": "4",
+                    "name": "Chicken",
+                    "image": "/images/products/wings.webp",
+                    "price": 45000,
+                    "quantity": 4
+                },
+                {
+                    "id": "10",
+                    "name": "The Steak Cafe",
+                    "image": "/images/products/steak_cafe.webp",
+                    "price": 65000,
+                    "quantity": 4
+                }
+            ],
+            "summary": {
+                "subtotal": 440000,
+                "discount": 50000,
+                "shippingFee": 30000,
+                "total": 360000
+            },
+            "createdAt": "2025-04-23T05:22:04.792Z",
+            "status": "pending"
+        },
+        {
+            "id": "1745472515258",
+            "customerInfo": {
+                "name": "Thanh Tùng",
+                "email": "sontung93@gmail.com",
+                "phone": "12312312311",
+                "address": "Thái Bình",
+                "note": ""
+            },
+            "cartItems": [
+                {
+                    "id": "20",
+                    "name": "Spicy Chicken Wings",
+                    "image": "/images/products/image2.png",
+                    "price": 39000,
+                    "quantity": 4
+                },
+                {
+                    "id": "23",
+                    "name": "Spicy Club",
+                    "image": "/images/products/image4.png",
+                    "price": 150000,
+                    "quantity": 1
+                }
+            ],
+            "summary": {
+                "subtotal": 306000,
+                "discount": 50000,
+                "shippingFee": 30000,
+                "total": 226000
+            },
+            "createdAt": "2025-04-24T05:28:35.258Z",
+            "status": "pending"
+        },
+        {
+            "id": "1750318502443",
+            "customerInfo": {
+                "name": "Thanh Tùng",
+                "email": "sontung93@gmail.com",
+                "phone": "12312312311",
+                "address": "Thái Bình",
+                "note": ""
+            },
+            "cartItems": [
+                {
+                    "id": "20",
+                    "name": "Spicy Chicken Wings",
+                    "image": "/images/products/image2.png",
+                    "price": 39000,
+                    "quantity": 2
+                },
+                {
+                    "id": "4",
+                    "name": "Chicken",
+                    "image": "/images/products/wings.webp",
+                    "price": 45000,
+                    "quantity": 2
+                }
+            ],
+            "summary": {
+                "subtotal": 168000,
+                "discount": 10000,
+                "shippingFee": 30000,
+                "total": 128000
+            },
+            "createdAt": "2025-06-19T07:35:02.443Z",
+            "status": "pending"
+        },
+        {
+            "id": "1751942184491",
+            "customerInfo": {
+                "name": "Thanh Tùng",
+                "email": "sontung93@gmail.com",
+                "phone": "12312312311",
+                "address": "Thái Bình",
+                "note": ""
+            },
+            "cartItems": [
+                {
+                    "id": "20",
+                    "name": "Spicy Chicken Wings",
+                    "image": "/images/products/image2.png",
+                    "price": 39000,
+                    "quantity": 1
+                },
+                {
+                    "id": "4",
+                    "name": "Chicken",
+                    "image": "/images/products/wings.webp",
+                    "price": 45000,
+                    "quantity": 1
+                }
+            ],
+            "summary": {
+                "subtotal": 84000,
+                "discount": 0,
+                "shippingFee": 30000,
+                "total": 54000
+            },
+            "createdAt": "2025-07-08T02:36:24.491Z",
+            "status": "pending"
+        },
+        {
+            "id": "1751994924517",
+            "customerInfo": {
+                "name": "Thanh Tùng",
+                "email": "sontung93@gmail.com",
+                "phone": "12312312311",
+                "address": "212",
+                "note": ""
+            },
+            "cartItems": [
+                {
+                    "id": "20",
+                    "name": "Spicy Chicken Wings",
+                    "image": "/images/products/image2.png",
+                    "price": 39000,
+                    "quantity": 3
+                },
+                {
+                    "id": "4",
+                    "name": "Chicken",
+                    "image": "/images/products/wings.webp",
+                    "price": 45000,
+                    "quantity": 4
+                },
+                {
+                    "id": "14",
+                    "name": "The Egg Chicken Rice",
+                    "image": "/images/products/egg_chicken_rice.webp",
+                    "price": 45000,
+                    "quantity": 3
+                },
+                {
+                    "id": "16",
+                    "name": "The Pasta Cafe",
+                    "image": "/images/products/pasta_cafe.webp",
+                    "price": 45000,
+                    "quantity": 2
+                }
+            ],
+            "summary": {
+                "subtotal": 522000,
+                "discount": 10000,
+                "shippingFee": 30000,
+                "total": 482000
+            },
+            "createdAt": "2025-07-08T17:15:24.517Z",
+            "status": "pending"
+        }
+    ],
+    "subscribe": [
+        {
+            "id": "0b0b",
+            "email": "dad@gmail.com"
+        },
+        {
+            "id": "e053",
+            "email": "hoainam@gmail.com"
+        },
+        {
+            "id": "db80",
+            "email": "asad@gmail.com"
+        },
+        {
+            "id": "2f03",
+            "email": "hoaidad@gmail.com"
+        }
+    ],
+    "blogPosts": [
+        {
+            "id": "1",
+            "title": "Gặp gỡ bếp trưởng của chúng tôi",
+            "slug": "gap-go-bep-truong",
+            "excerpt": "Khám phá hành trình và đam mê ẩm thực của bếp trưởng Nguyễn Văn A – người đứng sau những món ăn đặc sắc tại nhà hàng.",
+            "thumbnail": "/images/blog/image1.png",
+            "category": "Câu chuyện nhà hàng",
+            "date": "2025-05-08",
+            "author": "Admin",
+            "tags": ["bếp trưởng", "ẩm thực", "câu chuyện"],
+            "content": "..."
+        },
+        {
+            "id": "2",
+            "title": "Nguồn gốc rau củ tươi sạch tại nhà hàng",
+            "slug": "nguon-goc-rau-cu",
+            "excerpt": "Tại sao chúng tôi chọn rau hữu cơ từ Đà Lạt và đảm bảo sự tươi ngon mỗi ngày cho khách hàng?",
+            "thumbnail": "/images/blog/image2.png",
+            "category": "Nguyên liệu & Quy trình",
+            "date": "2025-05-06",
+            "author": "Admin",
+            "tags": ["nguyên liệu", "rau củ", "an toàn thực phẩm"],
+            "content": "..."
+        },
+        {
+            "id": "3",
+            "title": "Một ngày trong căn bếp của chúng tôi",
+            "slug": "mot-ngay-trong-bep",
+            "excerpt": "Theo chân đội ngũ bếp để thấy được công việc phía sau mỗi món ăn bạn thưởng thức.",
+            "thumbnail": "/images/blog/image3.png",
+            "category": "Hậu trường nhà hàng",
+            "date": "2025-05-05",
+            "author": "Admin",
+            "tags": ["hậu trường", "quy trình", "bếp"],
+            "content": "..."
+        },
+        {
+            "id": "4",
+            "title": "Câu chuyện ra đời của nhà hàng",
+            "slug": "cau-chuyen-nha-hang",
+            "excerpt": "Chúng tôi bắt đầu từ một căn bếp nhỏ và một ước mơ lớn. Hành trình xây dựng thương hiệu bắt đầu từ đâu?",
+            "thumbnail": "/images/blog/image4.png",
+            "category": "Câu chuyện nhà hàng",
+            "date": "2025-05-03",
+            "author": "Admin",
+            "tags": ["lịch sử", "thương hiệu", "định hướng"],
+            "content": "..."
+        },
+        {
+            "id": "5",
+            "title": "Món ăn theo mùa – Sự sáng tạo đến từ thiên nhiên",
+            "slug": "mon-an-theo-mua",
+            "excerpt": "Khám phá các món ăn mới theo từng mùa và lý do vì sao chúng tôi chọn nguyên liệu theo mùa vụ.",
+            "thumbnail": "/images/blog/image5.png",
+            "category": "Ẩm thực & Mùa vụ",
+            "date": "2025-05-01",
+            "author": "Admin",
+            "tags": ["ẩm thực theo mùa", "sáng tạo", "nguyên liệu tươi"],
+            "content": "..."
+        }
+    ],
+    "reservations": [
+        {
+            "id": "3972",
+            "name": "Thanh Tùng",
+            "phone": "0918273645",
+            "guests": 1,
+            "date": "2025-07-12",
+            "time": "19:37",
+            "notes": "test 1"
+        },
+        {
+            "id": "9e7c",
+            "name": "Thanh Tùng",
+            "phone": "0918273645",
+            "guests": 1,
+            "date": "2025-07-20",
+            "time": "10:54",
+            "notes": "saa"
+        },
+        {
+            "id": "a156",
+            "name": "toyama",
+            "phone": "0917827745",
+            "guests": "4",
+            "date": "2025-07-19",
+            "time": "02:19",
+            "notes": "sdasdasd"
+        }
+    ],
+    "login": [
+        {
+            "id": "b35f",
+            "email": "sontung93@gmail.com",
+            "password": "12345121"
+        },
+        {
+            "id": "4012",
+            "email": "sontung93@gmail.com",
+            "password": "123123123"
+        },
+        {
+            "id": "4c7e",
+            "email": "sontung93@gmail.com",
+            "password": "123123123"
+        },
+        {
+            "id": "4606",
+            "email": "sontung93@gmail.com",
+            "password": "1212121"
+        },
+        {
+            "id": "769a",
+            "email": "sontung93@gmail.com",
+            "password": "1212122"
+        },
+        {
+            "id": "858e",
+            "email": "sontung93@gmail.com",
+            "password": "123213123"
+        },
+        {
+            "id": "a423",
+            "email": "sontung93@gmail.com",
+            "password": "1121212"
+        },
+        {
+            "id": "24f7",
+            "email": "sontung93@gmail.com",
+            "password": "1212121212"
+        }
+    ]
+}
