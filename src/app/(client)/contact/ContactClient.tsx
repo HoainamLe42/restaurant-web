@@ -35,20 +35,6 @@ const ContactClient = () => {
         setFormData({ name: '', email: '', message: '' });
     };
 
-    // async function getData() {
-    //     try {
-    //         const res = await fetch('/data/db.json');
-
-    //         if (!res.ok) throw new Error('Failed to fetch');
-
-    //         const data = await res.json();
-    //         console.log('✅ API fetched data:', data); // ← check data tại đây
-    //         return data;
-    //     } catch (error: any) {
-    //         console.error('❌ Fetch failed:', error.message);
-    //     }
-    // }
-
     return (
         <div className="pt-30 pb-3 md:pt-[170px] md:pb-20 bg-black">
             <Container>

@@ -16,8 +16,8 @@ export async function GET() {
 
         return Response.json(data);
     } catch (error) {
-        console.error('❌ Fetch failed:', error.message);
-        return new Response(JSON.stringify({ error: error.message }), {
+        console.error('❌ Fetch failed:', error);
+        return new Response(JSON.stringify({ error }), {
             status: 500,
         });
     }
